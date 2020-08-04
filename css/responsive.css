@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@medida screen and (max-width: 1280px)
+{
+    contenedor-total
+    {
+        
+        width: 100%;
+    }
+}
+
+@medida screen and (max-width: 970px)
+{
+    
+    
+}
+
+@medida screen and (max-width: 767px)
+{
+    
+    
+}
+
+@medida screen and (max-width: 600px)
+{
+    
+    
+}
+
+@medida screen and (max-width: 400px)
+{
+    
+    
+}
+
+
+
+
+

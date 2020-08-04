@@ -1,0 +1,586 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    background-image: url( "file:///C:/Users/Omar%20Camargo/Desktop/NUEVO%20PROYECTO%20WEB/PAGINA%20WEB-OMAR/img/fondo-privacidad.jpg");
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: 50% 0;
+    background-color:rgba(0,0,0,1.00);
+  
+    
+}
+
+container 
+{
+    width: 100%;
+    top:-2%;
+    position: absolute;
+    
+}
+
+
+container nav
+{
+  width: 90%;
+  margin:30px auto;
+  max-width:1000px;
+  padding: 10px;
+}
+
+container nav ul
+{
+   overflow: hidden;
+  list-style: none;  
+}
+
+container nav ul li
+{
+  float:left;  
+}
+
+container nav ul li a 
+{
+    color:rgba(240,96,10,1.00);
+    padding:1px;
+    background-color:rgba(0,0,0,0.00);
+    display:block;
+    text-decoration:none;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    text-shadow: 0px 4px rgba(1,1,1,1.00);
+}
+
+container nav ul li i 
+{
+    margin-right: 10px;
+    margin-left: 48px;
+}
+
+container .sigueme
+{
+    margin-left: 10px;
+}
+
+container .fa-twitter 
+{
+    margin-right:-3px;
+    margin-left: 2px;
+}
+
+container .fa-instagram-square
+{
+   margin-right:20px;
+    margin-left: 7px;  
+}
+
+container nav ul li a:hover{
+    
+    background:rgba(0,0,0,0.00);
+    opacity: 30%;
+}
+
+
+header .container
+{
+    width: 100%;
+    position: absolute;
+    top:-490%;
+
+}  
+
+header .container 
+{ 
+    float:right; 
+    position: absolute;
+    left:28%;
+}
+
+.container li a
+{
+    color:rgba(241,76,2,1.00);
+    padding:20px;
+    display:block;
+    text-decoration:none;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+     
+    
+}
+
+.container li i 
+{
+    margin-right: 10px;
+}
+
+.container :hover{
+    
+   color: rgba(241,76,2,1.00);
+   
+}
+
+header li i 
+{
+    margin-right: 10px;
+}
+
+
+header
+{
+    width: 100%;
+    position: absolute;
+    top:85%;
+}
+
+header nav
+{
+    width: 90%;
+    margin:20px auto;
+    max-width:1000px;
+    /*background: rgba(255,255,255,1.00);*/  
+}
+
+.menu_bar
+{
+    
+    display:none;
+}
+
+header nav ul
+{
+    overflow: hidden;
+    list-style: none;
+}
+
+header nav ul li 
+{ 
+    float:left;  
+}
+
+header nav ul li a
+{
+    color: azure;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    text-shadow: 0px 4px rgba(1,1,1,1.00);
+}
+
+header nav ul li span 
+{
+    margin-right: 10px;
+}
+
+header nav div
+{
+    display: none;
+}
+
+header nav ul li a:hover{
+    
+    background: rgba(241,76,2,1.00);
+    opacity: 30%;
+}
+
+.acordion-pre
+{
+  width: 300px;
+  min-height: 100px;
+  background-color:;
+  position: absolute;
+  left:37%; 
+  top:120%;
+}
+
+.acordion-pre #presentacion
+{
+  width:300px;
+  min-height:2px;
+  background-color:rgba(249,190,132,1.00); 
+}
+
+.titulo
+{
+ width: 1008px;
+ min-height: 40px;
+background-image: linear-gradient(to right,black 100%, white 0%, black 100%);
+ background-blend-mode: multiply;
+ overflow: hidden;
+ position:absolute;
+ left:-110%;
+}
+
+.titul
+{
+ margin:3px;
+ position:absolute;
+ color:azure;
+ left:45%;
+ color:;
+}
+
+.titul .fa-angle-down
+{
+  position: absolute;
+  left:47%;
+  top:70%;
+  color:rgba(241,76,2,1.00);
+}
+
+.info{
+ width: 1008px;
+ height:0%;
+ background-color:azure;
+ overflow: hidden;
+ position: absolute;
+ left:-110%;
+}
+
+.info .diseñador
+{
+   margin:70px;
+   text-align: justify;
+   position:absolute;
+   left:45%;
+   top:2%;
+   
+}
+
+
+ #presentacion:hover .info
+
+{
+    height: 1500px;
+    
+}
+
+.info .privacidad  
+{
+    
+    test-align: justify;
+    position: absolute;
+    padding-bottom: 20px;
+    left:70px;
+    top:4%;
+    width: 88%;
+    margin-right:20px auto;
+    margin-bottom:20px auto;   
+}
+
+
+.info .privacidad h2  
+{
+    margin:4% 0% 4% 0%;
+   
+}
+
+@media screen and (max-width: 1024px)
+    
+{
+    
+ body
+{
+    background-image: url( "file:///C:/Users/Omar%20Camargo/Desktop/NUEVO%20PROYECTO%20WEB/PAGINA%20WEB-OMAR/img/fondo-privacidad.jpg");
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: 50% 0;
+    background-color:rgba(0,0,0,1.00);
+  
+    
+}   
+    
+}
+
+      
+@media screen and (max-width: 992px)
+    
+{
+    
+ body
+{
+    background-image: url( "file:///C:/Users/Omar%20Camargo/Desktop/NUEVO%20PROYECTO%20WEB/PAGINA%20WEB-OMAR/img/fondo-privacidad.jpg");
+    background-size: cover;
+  
+    
+} 
+    
+    
+container
+    {
+      display: none; 
+    }
+    
+
+header .container
+{
+    width: 100%;
+    position: absolute;
+    top:-490%;
+    left:90%;
+
+}  
+
+
+
+.container li a
+{
+    color:rgba(241,76,2,1.00);
+    padding:20px;
+    display:block;
+    text-decoration:none;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    
+}
+
+.container li i 
+{
+    margin-right: 10px;
+}
+
+.container :hover{
+    
+   color: rgba(241,76,2,1.00);
+   
+}
+
+    
+    
+  header 
+{
+    width: 100%;
+    position: absolute;
+    top:4%;
+}
+    
+    header nav 
+    {
+        width: 60%;
+        height:100%;
+        margin:0;
+        position:fixed;
+        
+    }
+    
+    header nav ul li
+    {
+        display:block;
+        float:none;
+        border-bottom:1px solid rgba(255,255,255, .3);
+    }
+    
+    header nav div
+{
+    display: block;
+}
+    
+header nav ul li i 
+{
+    margin-right: 10px;
+}
+
+    
+    .menu_bar
+    {
+        display:block;
+        width: 100%;
+        background:;
+    }
+    
+    .menu_bar .bt-menu
+    {
+        display:block;
+        padding: 10px;
+        /*background: rgba(241,76,2,1.00);*/
+        color:azure;
+        text-decoration:none;
+        font-weight:bold;
+        font-size: 25px;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box;
+    }
+    
+    .menu_bar i
+    {
+       float: right;
+       font-size: 40px;
+        
+    }
+    
+    
+    
+    .acordion-pre
+{
+  width: -2%;
+  min-height: 300px;
+  background-color:;
+  position: absolute;
+  left:30%; 
+  top:90%;
+}
+
+.acordion-pre #presentacion
+{
+  width:-5px;
+  min-height:2px;
+  background-color:rgba(249,190,132,1.00); 
+}
+    
+.titulo
+{
+ width: 1008px;
+ min-height: 40px;
+ background-image: black; 
+ overflow: hidden;
+ position:absolute;
+ left:-110%;
+}
+
+.titul
+{
+ margin:3px;
+ position:absolute;
+ color:azure;
+ left:45%;
+ 
+}
+
+.info{
+ width: 1008px;
+ height:0%;
+ background-color:azure;
+ overflow: hidden;
+ position: absolute;
+ left:-90%;
+}
+
+.info .privacidad
+{
+   margin:70px;
+   text-align: justify;
+   position:absolute;
+   left:10%;
+   top:2%;
+   font-size:12px;
+   width:55%;
+   
+}
+
+
+ #presentacion:hover .info
+
+{
+    height: 1400px;
+    
+}
+
+    
+}
+
+
+    
+@media screen and (max-width: 600px)
+    
+    
+{   
+   
+ body
+{
+    background-image: url( "file:///C:/Users/Omar%20Camargo/Desktop/NUEVO%20PROYECTO%20WEB/PAGINA%20WEB-OMAR/img/fondo-privacidad.jpg");
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: 50% 0;
+    background-color:rgba(0,0,0,1.00);
+    width: 380px;
+    height: 300px;
+  
+    
+} 
+    
+    
+    
+    .acordion-pre
+{
+  width: -9%;
+  min-height: 500px;
+  background-color:;
+  position: absolute;
+  left:9%; 
+  top:60%;
+}
+
+.acordion-pre #presentacion
+{
+  width:-20px;
+  min-height:9px;
+  background-color:rgba(249,190,132,1.00); 
+}
+    
+#presentacion:hover .info
+
+{
+    height: 1850px;
+    
+}
+
+    
+.titulo
+{
+ width: 1008px;
+ min-height: 40px;
+ background-image:black; 
+ overflow: hidden;
+ position:absolute;
+ left:-110%;
+ font-size: ;
+}
+
+.titul
+{
+ margin:3px;
+ position:absolute;
+ color:azure;
+ left:45%;
+ color:;
+ font-size:19px;
+}
+    
+.info .privacidad
+{
+   margin:70px;
+   text-align: justify;
+   position:absolute;
+   left:33%;
+   top:-2%;
+   font-size:12px;
+   width: 280px;
+   
+}
+    
+}
+
+
+@media screen and (max-width: 375px) 
+
+{
+    
+    body
+{
+    background-image: url( "file:///C:/Users/Omar%20Camargo/Desktop/NUEVO%20PROYECTO%20WEB/PAGINA%20WEB-OMAR/img/fondo-privacidad.jpg");
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: 50% 0;
+    background-color:rgba(0,0,0,1.00);
+    width: 380px;
+    height: 300px;
+  
+    
+} 
+  
+}

@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    margin: 0;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.contenedor
+{
+    width: 100%;
+    padding: 15px;
+    
+}
+
+.formulario
+{background: rgba(249,244,244,1.00);
+margin-top: 150px;
+padding: 3px;
+}
+
+h1
+{
+text-align:center;
+color:rgba(5,4,4,1.00);
+fon-size:40px;
+}
+
+.input-contenedor [type="text"],
+.input-contenedor [type="password"]
+{
+    font-size: 16px;
+    width: 90%;
+    padding: 10px;
+    border: none;
+}
+
+.input-contenedor
+{ margin-bottom: 15px;
+  border: 1px solid #F8F0F1;
+
+}
+
+.fa-user-edit 
+{
+min-width: 40px;
+min-height: 40px;
+text-align: center;
+
+}
+
+.fa-user-lock
+{
+min-width: 40px;
+min-height: 40px;
+text-align: center;
+
+}
+
+
+.button
+{
+   border: none;
+   width: 100%;
+   color:white;
+   font-size: 100%;
+   background: rgba(11,10,10,1.00);
+   padding: 5px;
+   border-radius: 5px;
+   cursor: pointer; 
+}
+
+.button: hover
+{
+    
+    background:rgba(174,208,243,1.00);
+}
+
+p{
+    
+    text-align:center;
+}
+
+.link{
+    text-decoration:none;
+    color:rgba(6,5,5,1.00);
+    font-weight: 600;     
+}
+
+.link:hover
+{
+  color:rgba(174,208,243,1.00);  
+    
+}
+
+@media(min-width:768px)
+{
+    
+.formulario {
+    
+    margin:auto;
+    width: 500px;
+    margin-top: 150px;
+    border-radius: 2%;
+     
+    }
